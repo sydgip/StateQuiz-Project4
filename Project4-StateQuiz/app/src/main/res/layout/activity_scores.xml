@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- TextView for Quiz Number 1 -->
+    <TextView
+        android:id="@+id/quizNumber1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Number 1"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <!-- TextView for Quiz Number 2 -->
+    <TextView
+        android:id="@+id/quizNumber2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Number 2"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <!-- TextView for Quiz Number 3 -->
+    <TextView
+        android:id="@+id/quizNumber3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Number 3"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <!-- TextView for Quiz Number 4 -->
+    <TextView
+        android:id="@+id/quizNumber4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Number 4"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <!-- TextView for Quiz Number 5 -->
+    <TextView
+        android:id="@+id/quizNumber5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Number 5"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+</LinearLayout>

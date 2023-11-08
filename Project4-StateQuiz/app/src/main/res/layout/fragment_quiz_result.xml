@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- TextView to display the quiz result -->
+    <TextView
+        android:id="@+id/quizResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Result"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <!-- Display the date and time -->
+    <TextView
+        android:id="@+id/quizDateTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+
+    <!-- Button to save the quiz result in the database -->
+    <Button
+        android:id="@+id/saveQuizResultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Quiz Result"
+        android:padding="8dp"/>
+</LinearLayout>
